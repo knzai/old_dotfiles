@@ -1,0 +1,10 @@
+[user]
+  email = timocratic@gmail.com
+[alias]
+  co = checkout
+  ci = commit
+  rb = rebase
+  up = svn rebase
+  dc = svn dcommit
+  st = status
+  amend = commit --amend
