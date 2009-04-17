@@ -3,7 +3,7 @@
 # Setting the path for MacPorts.
 stty stop undef
 
-export PATH=~/bin:/usr/local/ruby/bin:/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=~/bin:~/bin/git_ps_tools:/usr/local/ruby/bin:/opt/local/bin:/opt/local/sbin:$PATH
 export EDITOR='mate -w'
 export LSCOLORS=dxfxcxdxbxegedabagacad
 export RAILS_ENV=development
