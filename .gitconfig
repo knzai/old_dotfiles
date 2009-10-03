@@ -1,10 +1,12 @@
 [user]
   email = timocratic@gmail.com
+  name = Tim Connor
 [alias]
   co = checkout
+  cm = commit -m
+  all = commit -a -m
   ci = commit
   rb = rebase
-  up = svn rebase
-  dc = svn dcommit
+  pu = !git pull && git push
   st = status
   amend = commit --amend
