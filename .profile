@@ -3,8 +3,8 @@
 # Setting the path for MacPorts.
 stty stop undef
 
-source ~/.dotfiles/.globals
-source ~/.dotfiles/.completions
+source ~/.dotfiles/.bash_globals
+source ~/.dotfiles/.bash_completions
 source ~/.dotfiles/.bash_aliases
-source ~/.dotfiles/.ql
-source ~/.dotfiles/.mategem
+source ~/.dotfiles/.bash_ql
+source ~/.dotfiles/.bash_mategem
