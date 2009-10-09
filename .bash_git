@@ -5,7 +5,8 @@ gitup() {
     stashed=1
     git stash save 'update temp'
   fi
-  git pull -v --rebase;  
+  git fetch;
+  git rebase -v origin/master;
   if [ -n "$stashed" ]; then
      git stash pop
   fi
