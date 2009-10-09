@@ -1,0 +1,12 @@
+gitup() { 
+  if git update-index --refresh; then
+    stashed=
+  else
+    stashed=1
+    git stash save 'update temp'
+  fi
+  git pull -v --rebase;  
+  if [ -n "$stashed" ]; then
+     git stash pop
+  fi
+}

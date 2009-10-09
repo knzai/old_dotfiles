@@ -8,6 +8,5 @@
   ci = commit
   rb = rebase
   pu = !git pull && git push
-  up = !git stash && git pull && git stash apply
   st = status
   amend = commit --amend
