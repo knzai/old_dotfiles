@@ -1,7 +1,6 @@
 alias ls='ls -G'
 alias goboo='pushd ~/Projects/yieldbuild'
-alias upboo='goboo && git pull && rake db:migrate:both'
-alias starboo='upboo && rake test:rails && open yieldbuild.tmproj'
+alias starboo='cd ~/Projects/yieldbuild && gitup && open yieldbuild.tmproj && rake db:migrate:both && rake test:rails'
 
 #For executing a specific ruby, gem, or rake:
 alias ruby186=/usr/local/ruby-1.8.6/bin/ruby
