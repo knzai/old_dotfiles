@@ -5,8 +5,7 @@
   co = checkout
   cm = commit -m
   all = commit -a -m
-  ci = commit
   rb = rebase -i origin
   pu = !git pull && git push
   st = status
-  amend = commit --amend
+  am = commit --amend
