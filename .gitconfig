@@ -8,3 +8,4 @@
   rb = rebase -i origin
   st = status
   amend = commit --amend
+  aa = commit -a --amend
