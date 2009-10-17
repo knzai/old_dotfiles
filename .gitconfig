@@ -6,6 +6,6 @@
   cm = commit -m
   all = commit -a -m
   rb = rebase -i origin
-  pu = !git pull && git push
+  pu = !git-up && git push
   st = status
-  am = commit --amend
+  amend = commit --amend
