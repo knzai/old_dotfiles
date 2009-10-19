@@ -9,3 +9,4 @@ source ~/.dotfiles/.bash_aliases
 source ~/.dotfiles/.bash_ql
 source ~/.dotfiles/.bash_mategem
 source ~/.dotfiles/.bash_git
+source ~/.dotfiles/.bash_deploy_ute
