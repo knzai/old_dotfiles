@@ -11,7 +11,3 @@ gitup() {
      git stash pop
   fi
 }
-gitdc() {
-  gitup
-  git push
-}
