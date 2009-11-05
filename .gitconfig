@@ -9,6 +9,7 @@
   st = status
   amend = commit --amend
   aa = commit -a --amend
+  up = !source ~/.profile && gitup
   dc = !source ~/.profile && gitup && git push
   conflicts = !git ls-files --unmerged | cut -c51- | sort -u | xargs $EDITOR
   resolve = !git ls-files --unmerged | cut -c51- | sort -u | xargs git add
