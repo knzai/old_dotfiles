@@ -1,12 +1,9 @@
 alias ls='ls -G'
 
 #YB specific
-alias cboo='pushd $yb'
+alias cboo='cd $yb'
 alias goboo=cboo
 alias starboo='cboo && gitup && open yieldbuild.tmproj && rake db:migrate:both && rake test:rails'
-alias deploy_ute='HOSTS=hubute02,hubute03 cap evocative deploy:upload'
-alias deploy_wbe='HOSTS=hubwbe03 cap evocative deploy:upload'
-
 
 alias cdot='pushd $dot'
 
