@@ -1,4 +1,4 @@
-export PATH=~/bin:/usr/local/ruby/bin:/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=~/.dotfiles/bin/git_ps_tools:~/bin:/usr/local/ruby/bin:/opt/local/bin:/opt/local/sbin:$PATH
 export EDITOR='mate -w'
 export LSCOLORS=dxfxcxdxbxegedabagacad
 export RAILS_ENV=development
