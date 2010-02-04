@@ -6,6 +6,8 @@
 # gem sources -a http://gems.github.com
 # sudo gem install timocratic-utility_belt
 
+require 'hirb'
+Hirb.enable
 
 #This section can be commented out if using utility_belt, since it turns this and more on, itself
 require 'irb/completion'
