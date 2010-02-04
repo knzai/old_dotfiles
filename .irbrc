@@ -17,3 +17,8 @@ IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-save-history"
 def Object.method_defined_where(method)
   self.ancestors.detect { |a| a.methods(false).include?(method.to_s) }
 end
+
+def loud_logger
+  Rails.logger.instance_variable_set "@log", STDOUT
+  ActiveRecord::Base.logger.level = 0
+end
