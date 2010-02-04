@@ -5,7 +5,7 @@
 # gems --version # MAKE SURE YOU HAVE AT LEAST RUBYGEMS 1.2.0 first.
 # gem sources -a http://gems.github.com
 # sudo gem install timocratic-utility_belt
-
+require 'rubygems'
 require 'hirb'
 Hirb.enable
 
