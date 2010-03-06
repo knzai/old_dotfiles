@@ -2,6 +2,15 @@ export PATH=~/.dotfiles/bin/git_ps_tools:~/bin:/usr/local/ruby/bin:/opt/local/bi
 export EDITOR='mate -w'
 export LSCOLORS=dxfxcxdxbxegedabagacad
 export RAILS_ENV=development
-export PS1="\[\033[01;32m\]\u\[\033[00m\]\[\033[01;31m\]\$(git_br)\[\033[01;32m\]\[\033[00m\]:\[\033[01;36m\]\$(git_pwd)\[\033[00m\]\$ "
 export yb=~/Projects/yieldbuild
 export dot=~/.dotfiles
+
+#export PS1="\[\033[01;32m\]\u\[\033[00m\]\[\033[01;31m\]\$(git_br)\[\033[01;32m\]\[\033[00m\]:\[\033[01;36m\]\$(git_pwd)\[\033[00m\]\$ "
+
+USER_GREEN='\[\e[01;32m\]'
+NO_COLOR='\[\e[00m\]'
+REPO_RED='\[\e[01;31m\]'
+PATH_BLUE='\[\e[01;36m\]'
+END_COLOR='\e[m'
+
+PS1="${USER_GREEN}\u${END_COLOR}${REPO_RED}\$(git_br)${END_COLOR}:${PATH_BLUE}\$(git_pwd)${END_COLOR}$ "
