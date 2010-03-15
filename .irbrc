@@ -21,6 +21,8 @@ def Object.method_defined_where(method)
 end
 
 def loud_logger
+  ActiveRecord::Base.logger = Logger.new(STDOUT)
   Rails.logger.instance_variable_set "@log", STDOUT
   ActiveRecord::Base.logger.level = 0
+  Rails.logger.level = 0
 end
