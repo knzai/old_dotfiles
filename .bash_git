@@ -11,3 +11,11 @@ gitup() {
      git stash pop
   fi
 }
+wtm(){
+  export GIT_AUTHOR_NAME="Tim Martin"
+  export GIT_AUTHOR_EMAIL="tim.martin@yieldbuild.com"
+}
+wotm(){
+  unset GIT_AUTHOR_NAME
+  unset GIT_AUTHOR_EMAIL
+}
