@@ -14,6 +14,10 @@
   conflicts = !git ls-files --unmerged | cut -c51- | sort -u | xargs $EDITOR
   resolve = !git ls-files --unmerged | cut -c51- | sort -u | xargs git add
 [branch "master"]
-       rebase = true
+  rebase = true
+  remote = origin
+  merge = refs/heads/master
 [branch]
-       autosetuprebase = always
+  autosetuprebase = always
+[push]
+  default = current
