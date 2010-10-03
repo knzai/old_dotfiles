@@ -7,7 +7,5 @@ source ~/.dotfiles/.bash_globals
 source ~/.dotfiles/.bash_completions
 source ~/.dotfiles/.bash_aliases
 source ~/.dotfiles/.bash_ql
-source ~/.dotfiles/.bash_mategem
-source ~/.dotfiles/.bash_git
-source ~/.dotfiles/.bash_deploy_ute
 source ~/.dotfiles/.bash_rtu
+[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm

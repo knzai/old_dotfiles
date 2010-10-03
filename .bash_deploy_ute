@@ -1,4 +1,0 @@
-function deploy_ute() {
-  IFS=,;
-  `HOSTS=hubute02,hubute03 cap evocative deploy:upload FILES=${*}`;
-};
