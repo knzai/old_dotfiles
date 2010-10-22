@@ -5,9 +5,14 @@
   whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
 [alias]
   rb = rebase -i origin
+  st = status
+  s = status
+  a = add .
+  cm = commit -m
+  cam = commit -am
   amend = commit --amend
   conflicts = !git ls-files --unmerged | cut -c51- | sort -u | xargs $EDITOR
-  resolve = !git ls-files --unmerged | cut -c51- | sort -u | xargs git add
+  l = log --graph --decorate --pretty=oneline --abbrev-commit
 [branch "master"]
   rebase = true
   remote = origin
