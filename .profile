@@ -9,5 +9,7 @@ source ~/.dotfiles/bash_aliases.sh
 source ~/.dotfiles/bash_ql.sh
 source ~/.dotfiles/bash_prompt.sh
 
+alias mongo_start="mongod run --config /usr/local/Cellar/mongodb/1.6.3-x86_64/mongod.conf"
+
 #rvm
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm

@@ -3,3 +3,4 @@ export LSCOLORS=dxfxcxdxbxegedabagacad
 export RAILS_ENV=development
 export dot=~/.dotfiles
 export CDPATH=~/Projects
+export BUNDLER_EDITOR="mate"
