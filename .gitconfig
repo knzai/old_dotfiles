@@ -8,6 +8,7 @@
   st = status
   s = status
   a = add .
+  ci = commit
   cm = commit -m
   cam = commit -am
   amend = commit --amend
