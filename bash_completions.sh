@@ -4,4 +4,4 @@ fi
 if [ -f /opt/local/etc/bash_completion ]; then
   source  /opt/local/etc/bash_completion
 fi
-complete -C ~/lib/rake-completion.rb -o default rake
+source ~/.dotfiles/rake_completion.sh
