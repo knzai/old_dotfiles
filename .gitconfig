@@ -12,7 +12,7 @@
 	ci = commit
 	cm = commit -m
 	cam = commit -am
-	amend = commit --amend
+	amend = commit --amend -C HEAD
 	conflicts = !git ls-files --unmerged | cut -c51- | sort -u | xargs $EDITOR
 	l = log --graph --decorate --pretty=oneline --abbrev-commit
 [branch "master"]
