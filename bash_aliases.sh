@@ -6,5 +6,9 @@ alias cdot='pushd $dot'
 #git
 alias g='git'
 alias gpp='git pull && git push'
+alias gst="git status";
+alias gdiff="git diff";
 
-alias zz="cd ~/Projects/hopelab/zamzeestudy/"
+#bundler
+alias bx="bundle exec";
+alias bxr="bundle exec rspec";
